@@ -1,0 +1,46 @@
+[
+  {
+    "NotificationTypeKey": "IncidentResolved",
+    "NotificationTypeVersion": "1",
+    "Templates": [
+      {
+        "Language": "en",
+        "TemplatePublic": "Your Incident was Resolved",
+        "TemplateSensitive": "Incident '{{title}}' Resolved",
+        "TemplateGrouped": "Incident Status Update",
+        "TemplateLanguage": "mustache",
+        "Subtitle": "Incident from '{{customer}}' resolved by {{user}}."
+      },
+      {
+        "Language": "de",
+        "TemplatePublic": "Ihr gemeldeter Vorfall wurde gelöst",
+        "TemplateSensitive": "Vorfall '{{title}}' gelöst",
+        "TemplateGrouped": "Vorfall Status Änderungen",
+        "TemplateLanguage": "mustache",
+        "Subtitle": "Vorfall von '{{customer}}' geschlossen von {{user}}."
+      }
+    ]
+  },
+  {
+    "NotificationTypeKey": "IncidentCreated",
+    "NotificationTypeVersion": "1",
+    "Templates": [
+      {
+        "Language": "en",
+        "TemplatePublic": "New Incident created",
+        "TemplateSensitive": "New incident created by {{customer}}",
+        "TemplateGrouped": "Incident Status Update",
+        "TemplateLanguage": "mustache",
+        "Subtitle": "{{description}}"
+      },
+      {
+        "Language": "de",
+        "TemplatePublic": "Neuer Vorfall eingegangen",
+        "TemplateSensitive": "Neuer Vorfall von {{customer}}",
+        "TemplateGrouped": "Vorfall Status Änderungen",
+        "TemplateLanguage": "mustache",
+        "Subtitle": "{{description}}"
+      }
+    ]
+  }
+]

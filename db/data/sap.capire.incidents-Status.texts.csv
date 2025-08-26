@@ -1,0 +1,13 @@
+code;locale;name;descr
+N;en;New;New
+A;en;Assigned;Assigned
+I;en;In Process;In Process
+H;en;On Hold;On Hold
+R;en;Resolved;Resolved
+C;en;Closed;Closed
+N;de;Neu;Neu
+A;de;Zugewiesen;Zugewiesen
+I;de;In Bearbeitung;In Bearbeitung
+H;de;Wartend;Wartend
+R;de;Gelöst;Gelöst
+C;de;Geschlossen;Geschlossen
