@@ -48,7 +48,7 @@ We have already completed these steps for this hands-on workshop, but still want
 > Looking back at the end of *Exercise 1*, the second application visible on the *SAP BTP*, in our *Space* under *Applications* called `notification-content-deployment-###` is exactly for this purpose.
 > During deployment it is being started with the `notification-types.json` file contents and creating / updating the *Notification Types*. Afterwards it is being stopped to save resources.
 
-    <p align="center"><img src="../ex1/images/ex1_summary_05.png" width="65%" /></p>
+  <p align="center"><img src="../ex1/images/ex1_summary_05.png" width="65%" /></p>
 
 ## Exercise 4.2 Extending our application to send notifications
 
