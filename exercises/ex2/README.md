@@ -40,8 +40,8 @@ After having our app deployed to the *SAP BTP*, we can now add it into *SAP Buil
     - Select your *Business Solution* from the dropdown. It should have the naming format `ca260###` with your participant number.
     - Select `ca260-rt` as a *Runtime Destination*
 
-    <p align="center"><img src="./images/ex2_02_01.png" width="65%" /></p>
-    <p align="center"><img src="./images/ex2_02_02.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex2_02_01.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex2_02_02.png" width="80%" /></p>
 
 > [!NOTE]
 > The *Runtime Destination* is used by *SAP Build Work Zone* to access the business solutions content.
@@ -76,24 +76,24 @@ After having our app deployed to the *SAP BTP*, we can now add it into *SAP Buil
     - Enable *Show Notifications*
     - Click the button `Save`
 
-    <p align="center"><img src="./images/ex2_02_03.png" width="65%" /></p>
-    <p align="center"><img src="./images/ex2_02_04.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex2_02_03.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex2_02_04.png" width="80%" /></p>
 
 8. Head to the *Role Assignments* entry in the navigation menu on the left side. Click `Edit`.
 
 9. Find the role with your participant number `CA260 ### Role` and enable the assignment of it to the *Site*.
 
-    <p align="center"><img src="./images/ex2_02_05.png" width="65%" /></p>
-    <p align="center"><img src="./images/ex2_02_06.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex2_02_05.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex2_02_06.png" width="80%" /></p>
 
 > [!TIP]
 > As an alternative to assigning individual roles to your side, you can also assign all roles from a certain *Content Channel* to your *Site.
 > To do this, switch the tab above the table from `Roles` to `Content Channels`.
 > As we have only exposed one role from our *HTML5 Business Solution*, you can choose either of both approaches without any drawback.
 
-10. Assign the Role ` ` from the Channel ` ` as well to your *Site*. `<<TODO>>`
+1.  Assign the Role `Internal Sales Representative` from the Channel `S4HANA` as well to your *Site*.
 
-11. Click `Save`.
+2.  Click `Save`.
 
 > [!CAUTION]
 > The role exposed from your *HTML5 Business Solution* needs to be assigned now to your user in the *SAP BTP Cockpit*.  
@@ -112,12 +112,12 @@ With the previous steps completed, we can now take a look at the content from an
 2. Click on the small icon showing an *arrow in a box*, next to the *gear icon*, in order to open the *Site* as an end-user.
 3. In the menu, find `Extensions from CA260`. You should be able to see an application tile named `Incidents Management`.
     
-    <p align="center"><img src="./images/ex2_03_01.png" width="65%" /></p>
-    <p align="center"><img src="./images/ex2_03_02.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex2_03_01.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex2_03_02.png" width="80%" /></p>
 
 4. Click on the application tile. The *Incidents Management* application will now open and you should be able to see a list of incidents.
 
-    <p align="center"><img src="./images/ex2_03_03.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex2_03_03.png" width="80%" /></p>
 
 ## Exercise 2.4 Onboard SAP Mobile Start
 
@@ -127,7 +127,7 @@ The exposed content can not only be accessed from a desktop browser but also usi
 2. Click on `Settings` to open the user settings.
 3. Select the setting entry `SAP Mobile Start Application`.
 4. Toggle the switch to `Register`. Depending on the screen resolution, you might need to scroll down to make the full QR Code visible.
-    <p align="center"><img src="./images/ex2_03_04.png" width="65%" /><img src="./images/ex2_03_05.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex2_03_04.png" width="80%" /><img src="./images/ex2_03_05.png" width="80%" /></p>
 5. Open the *SAP Mobile Start* app on your smartphone.
 6. Click on `Scan QR Code` and scan your *Site's* QR.
     <p align="center"><img src="./images/ex2_04_01.png" width="20%" style="margin:10px" /><img src="./images/ex2_04_02.png" width="20%" style="margin:10px" /></p>

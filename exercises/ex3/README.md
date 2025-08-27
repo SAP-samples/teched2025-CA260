@@ -51,7 +51,7 @@ The details of the *App* in *SAP Build Work Zone* and its visual representation 
     }
     ```
 
-    <p align="center"><img src="./images/ex3_01_01.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex3_01_01.png" width="80%" /></p>
 
 > [!NOTE]
 > The property `indicatorDataSource` is responsible of configuring the KPI to be shown on the application tile as well as in mobile widgets.
@@ -67,12 +67,12 @@ We will now prepare the project for building & deploying the updated application
 2. Update the `version` number in line 3 as well to the same version number, that we defined in the manifest (`1.0.1`).
 3. Right-click onto the file `mta.yaml` and select `Build MTA Project` from the context menu.
 
-    <p align="center"><img src="./images/ex3_02_01.png" width="65%" /><img src="./images/ex3_02_02.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex3_02_01.png" width="80%" /><img src="./images/ex3_02_02.png" width="80%" /></p>
 
 4. After the build process has finished, find the resulting artifact under `/mta_archives`.
 5. Right click on the new `ca260-###_1.0.1.mtar` file and select `Deploy MTA Archive` from the context menu.
 
-    <p align="center"><img src="./images/ex3_02_03.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex3_02_03.png" width="80%" /></p>
 
 6. Wait for the deployment process to complete.
 7. Afterwards, head again to the *Site Manager* of [*SAP Build Work Zone, standard edition*](https://ca260-c0ym91e3.dt.eu10.workzone.cloud.sap).
@@ -81,7 +81,7 @@ We will now prepare the project for building & deploying the updated application
 10. Click on the *Update* icon.
 11. The status should change now to *Updating*, after a short moment it should again change to *Updated*.
 
-    <p align="center"><img src="./images/ex3_02_04.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex3_02_04.png" width="80%" /></p>
 
 ## Exercise 3.3 Check the result in SAP Mobile Start
 

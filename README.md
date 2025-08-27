@@ -62,7 +62,7 @@ Login credentials will be provided by the instructor.
 
 You can download SAP Mobile Start for iOS and Android in the respective App Stores.
 
-<p align="center"><img src="./exercises/ex1/images/download.png" width="65%" /></p>
+<p align="center"><img src="./exercises/ex1/images/download.png" width="80%" /></p>
 
 ## Contributing
 

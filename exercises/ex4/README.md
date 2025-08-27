@@ -18,7 +18,7 @@ We have already completed these steps for this hands-on workshop, but still want
 
 2. Open the `package.json` file from the *Explorer* view and find the entry `@cap-js/notifications` under `dependencies`.
 
-    <p align="center"><img src="./images/ex4_01_01.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex4_01_01.png" width="80%" /></p>
 
 > [!NOTE]
 > The `package.json` file manages the dependencies for the *CAP* Node.JS project and includes additionally some *CAP* specific configurations.
@@ -26,7 +26,7 @@ We have already completed these steps for this hands-on workshop, but still want
 
 3. The plugin communicates with the necessary APIs using a *Destination* that needs to be created in the *SAP BTP Subaccount* in which the application will run. By default it expects the name for the *Destination* to be `SAP_Notifications` if not configured differently.
 
-    <p align="center"><img src="./images/ex4_01_02.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex4_01_02.png" width="80%" /></p>
 
 > [!NOTE]
 > We have created this destination already for you centrally in our *SAP BTP Subaccount* for this hands-on session. No action required for you other than understanding the concept behind it.
@@ -35,7 +35,7 @@ We have already completed these steps for this hands-on workshop, but still want
 4. Open now the file `/srv/notification-types.json` in your *SAP Business Application Studio* project.
     This file defines the notification types for our application which we will use in a short moment.
 
-    <p align="center"><img src="./images/ex4_01_03.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex4_01_03.png" width="80%" /></p>
 
 > [!NOTE]
 > *Notification Types* can be seen as templates with certain placeholders for the actual notification.
@@ -48,7 +48,7 @@ We have already completed these steps for this hands-on workshop, but still want
 > Looking back at the end of *Exercise 1*, the second application visible on the *SAP BTP*, in our *Space* under *Applications* called `notification-content-deployment-###` is exactly for this purpose.
 > During deployment it is being started with the `notification-types.json` file contents and creating / updating the *Notification Types*. Afterwards it is being stopped to save resources.
 
-  <p align="center"><img src="../ex1/images/ex1_summary_05.png" width="65%" /></p>
+  <p align="center"><img src="../ex1/images/ex1_summary_05.png" width="80%" /></p>
 
 ## Exercise 4.2 Extending our application to send notifications
 
@@ -143,7 +143,7 @@ With the preparations being completed, we can now continue with actually sending
 > This time, we use the other *Notification Type* `IncidentResolved` and its template.
 
 6. Having completed these modifications, your file's content should look like in the following screenshot. Make sure to save the file.
-    <p align="center"><img src="./images/ex4_02_01.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex4_02_01.png" width="80%" /></p>
 
 ## Exercise 4.3 Build and deploy the updated application
 
@@ -153,12 +153,12 @@ We will now prepare the project for building & deploying the updated application
 2. Increase the `version` number in line 3 (e.g. to `1.0.2`).
 3. Right-click onto the file `mta.yaml` and select `Build MTA Project` from the context menu.
 
-    <p align="center"><img src="./images/ex4_03_01.png" width="65%" /><img src="./images/ex4_03_02.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex4_03_01.png" width="80%" /><img src="./images/ex4_03_02.png" width="80%" /></p>
 
 4. After the build process has finished, find the resulting artifact under `/mta_archives`.
 5. Right click on the new `ca260-###_1.0.2.mtar` file and select `Deploy MTA Archive` from the context menu.
 
-    <p align="center"><img src="./images/ex4_03_03.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex4_03_03.png" width="80%" /></p>
 
 6. Wait for the deployment process to complete.
 
@@ -169,10 +169,10 @@ We will now prepare the project for building & deploying the updated application
 ## Exercise 4.4 Check the result in SAP Mobile Start
 
 1. On your *Site* in *SAP Build Work Zone* and click on the application tile of your *Incidents Management* app like in Exercise 2.3.
-    <p align="center"><img src="./images/ex4_04_01.png" width="65%" /><img src="./images/ex4_04_02.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex4_04_01.png" width="80%" /><img src="./images/ex4_04_02.png" width="80%" /></p>
 2. In the table of *Incidents*, click on the `Create` button.
 3. Fill the *Incidents* data to your liking and save your *Incident* using the `Save` button. 
-    <p align="center"><img src="./images/ex4_04_03.png" width="65%" /></p>
+    <p align="center"><img src="./images/ex4_04_03.png" width="80%" /></p>
 4. After a short moment, a push notification should be delivered to your mobile device running *SAP Mobile Start*.
     <p align="center"><img src="./images/ex4_04_04.gif" width="20%" style="margin:10px" /></p>
 5. By tapping on the push notification, you will be directed into the detail view of this push notification.
