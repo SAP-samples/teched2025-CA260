@@ -49,6 +49,5 @@
   "engines": {
     "npm": "^10.9.0",
     "node": "^22"
-  },
-  "lcap": true
+  }
 }

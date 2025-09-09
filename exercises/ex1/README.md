@@ -40,6 +40,9 @@ This will be our basis to further optimize the application in the subsequent exc
 > Once created, this session's respository containing the base version of our app will be cloned.
 > As a result you will see your *SAP Build Code* project launched in *SAP Business Application Studio*.
 
+> [!TIP]
+> Instead of using *SAP Build Code*, you can also use Visual Studio Code locally on your machine.
+
 6. Once the project has been clone successfully, click on the burger menu in the top left corner.
 
 7. Select `Edit` and click on `Replace in Files`.  
