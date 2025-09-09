@@ -41,7 +41,7 @@ This will be our basis to further optimize the application in the subsequent exc
 > As a result you will see your *SAP Build Code* project launched in *SAP Business Application Studio*.
 
 > [!TIP]
-> Instead of using *SAP Build Code*, you can also use Visual Studio Code locally on your machine.
+> Instead of using *SAP Build Code*, you can also use Visual Studio Code locally on your machine. Please note that you may need to install a couple of extensions in order to get the same productivity tools, like building & deploying the MTA.  
 
 6. Once the project has been clone successfully, click on the burger menu in the top left corner.
 
