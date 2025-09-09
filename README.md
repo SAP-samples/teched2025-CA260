@@ -1,5 +1,7 @@
 # CA260 - Learn how to build your own app and use it in SAP Mobile Start
 
+<p align="center"><img src="./exercises/ex1/images/CA260.jpg" width="80%" /></p>
+
 ## Description
 
 This repository contains the material for the SAP TechEd 2025 session called CA260 - Learn how to build your own app and use it in SAP Mobile Start.  
