@@ -185,7 +185,7 @@ We will now prepare the project for building & deploying the updated application
     <p align="center"><img src="./images/ex4_04_05.png" width="20%" style="margin:10px" /><img src="./images/ex4_04_06.png" width="20%" style="margin:10px" />
 
 > [!NOTE]
-> You can also try out the second notification that we have added to our application, by closing an incident.
+> You can also try out the second notification that we have added to our application, by editing your incident and set it to status `C – Closed`.
 
 > [!IMPORTANT]
 > **Wow!** :clap:

@@ -87,7 +87,7 @@ This will be our basis to further optimize the application in the subsequent exc
 
 6. Once completed, locate the build result in the folder `mta_archives`.
 
-7. Right click the *.mtar* file and select `Deploy MTA Archive`.
+7. Right click the `ca260-###_1.0.0.mtar` file and select `Deploy MTA Archive`.
 
     <p align="center"><img src="./images/ex1_02_03.png" width="80%" /><img src="./images/ex1_02_04.png" width="80%" /></p>
 

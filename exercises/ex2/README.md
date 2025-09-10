@@ -67,7 +67,9 @@ After having our app deployed to the *SAP BTP*, we can now add it into *SAP Buil
 
 5. Head to the *Site Directory* using the burger menu on the left.
 6. Click the `+ Create Site` button and enter `CA260-###` (replacing `###` with your participant number) as the *Site Name*. Complete the creation with the button `Create`.
-7. In the *Site Settings* that should now open:
+7. Find *Site* with **your** participant number.
+8. Click on the small *gear* icon.
+9. In the *Site Settings* that should now open, click `Edit` and modify the following settings:
 
     - Add `German (Germany)` to the supported languages (optional)
     - Make sure *SAP Mobile Start* is **enabled** (default)
@@ -79,9 +81,9 @@ After having our app deployed to the *SAP BTP*, we can now add it into *SAP Buil
     <p align="center"><img src="./images/ex2_02_03.png" width="80%" /></p>
     <p align="center"><img src="./images/ex2_02_04.png" width="80%" /></p>
 
-8. Head to the *Role Assignments* entry in the navigation menu on the left side. Click `Edit`.
+10. Head to the *Role Assignments* entry in the navigation menu on the left side. Click `Edit`.
 
-9. Find the role with your participant number `CA260 ### Role` and enable the assignment of it to the *Site*.
+11. Find the role with your participant number `CA260 ### Role` and enable the assignment of it to the *Site*.
 
     <p align="center"><img src="./images/ex2_02_05.png" width="80%" /></p>
     <p align="center"><img src="./images/ex2_02_06.png" width="80%" /></p>
@@ -91,9 +93,8 @@ After having our app deployed to the *SAP BTP*, we can now add it into *SAP Buil
 > To do this, switch the tab above the table from `Roles` to `Content Channels`.
 > As we have only exposed one role from our *HTML5 Business Solution*, you can choose either of both approaches without any drawback.
 
-1.  Assign the Role `Internal Sales Representative` from the Channel `S4HANA` as well to your *Site*.
-
-2.  Click `Save`.
+12.  Assign the Role `Internal Sales Representative` from the Channel `S4HANA` as well to your *Site*.
+13.  Click `Save`.
 
 > [!CAUTION]
 > The role exposed from your *HTML5 Business Solution* needs to be assigned now to your user in the *SAP BTP Cockpit*.  
@@ -101,8 +102,8 @@ After having our app deployed to the *SAP BTP*, we can now add it into *SAP Buil
 > This is important for the next exercises as you will only be able to see the content once this has been done.  
 > Do not continue the exercises without an instructor having assigned you the needed role.
 
-12. Click on the *User Icon* on the top right and choose `Sign out`. Confirm with `OK`.
-13. Click `Sign in again` and log in with your provided credentials in order for the role assignment to take effect.
+14. Click on the *User Icon* on the top right and choose `Sign out`. Confirm with `OK`.
+15. Click `Sign in again` and log in with your provided credentials in order for the role assignment to take effect.
 
 ## Exercise 2.3 Check out your app in SAP Build Work Zone
 
