@@ -127,7 +127,7 @@ This will be our basis to further optimize the application in the subsequent exc
 ## Summary
 
 You've now cloned our repository in *SAP Build Code* that will act as the base application for the subsequent excercises by creating a new project in the *SAP Build Lobby*.
-Since it is a *Full-Stack Node.JS* project, we installed the required dependencies delcared by the `package.json` file using `npm`.
+Since it is a *Full-Stack Node.JS* project, we installed the required dependencies declared by the `package.json` file using `npm`.
 The application we will use as a basis in this course is a slightly modified version of the well-known *Incidents Management* reference application[^1] for *CAP*.
 It can be used to file new incidents
 Processors can work on reported incidents and have the current status reflected in the tool.
