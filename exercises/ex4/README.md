@@ -168,7 +168,7 @@ We will now prepare the project for building & deploying the updated application
 
 ## Exercise 4.4 Check the result in SAP Mobile Start
 
-1. On your *Site* in *SAP Build Work Zone* and click on the application tile of your *Incidents Management* app like in Exercise 2.3.
+1. On your *Site* in *SAP Build Work Zone* click on the application tile of your *Incidents Management* app like in Exercise 2.3.
     <p align="center"><img src="./images/ex4_04_01.png" width="80%" /><img src="./images/ex4_04_02.png" width="80%" /></p>
 2. In the table of *Incidents*, click on the `Create` button.
 3. Fill the *Incidents* data to your liking and save your *Incident* using the `Save` button. 
