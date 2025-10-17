@@ -54,7 +54,7 @@ The details of the *App* in *SAP Build Work Zone* and its visual representation 
     <p align="center"><img src="./images/ex3_01_01.png" width="80%" /></p>
 
 > [!NOTE]
-> The property `indicatorDataSource` is responsible of configuring the KPI to be shown on the application tile as well as in mobile widgets.
+> The property `indicatorDataSource` is responsible for configuring the KPI to be shown on the application tile as well as in mobile widgets.
 > We reference to the CAP API for the *ProcessorService* as `mainService` that is defined further above.
 > As `path`, we point to the `Incidents` entity and apply the OData `$count` action.
 > Furthermore, we apply a `$filter`, to only count the incidents with a `status_code` that is **not equal** to `'C'`, which refers to *closed*.
