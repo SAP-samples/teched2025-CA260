@@ -127,7 +127,7 @@ This will be our basis to further optimize the application in the subsequent exc
 ## Summary
 
 You've now cloned our repository in *SAP Build Code* that will act as the base application for the subsequent excercises by creating a new project in the *SAP Build Lobby*.
-Since it is a *Full-Stack Node.JS* project, we installed the required dependencies delcared by the `package.json` file using `npm`.
+Since it is a *Full-Stack Node.JS* project, we installed the required dependencies declared by the `package.json` file using `npm`.
 The application we will use as a basis in this course is a slightly modified version of the well-known *Incidents Management* reference application[^1] for *CAP*.
 It can be used to file new incidents
 Processors can work on reported incidents and have the current status reflected in the tool.
@@ -144,7 +144,7 @@ The service layer is defined and can be extended by application logic located in
 *CAP* will automatically expose the defined services using OData APIs.
 In this course, we will only use the *ProcessorService*.  
 Using *SAP Fiori Elements* the *ProcessorService* is connected to a *SAP UI5* User Interface.
-It's definitions are located in the folder `/app`.  
+Its definitions are located in the folder `/app`.  
 The folder `/workzone` contains a single file that defines the structre in which our application should appear as tile in *SAP Build Work Zone, standard edition* and *SAP Mobile Start* – additionally the user role that should be required in order to see the application tile.
 
 <p align="center"><img src="./images/ex1_summary_01.png" width="80%" /></p>
@@ -163,9 +163,9 @@ The folder `/workzone` contains a single file that defines the structre in which
 > Please note that certain functionality depending on dedicated *SAP BTP* services is either mocked or not available.
 
 Check back in the terminal tab of the deployment, whether the process already finished successfully.
-Upon success, you can login to the [*SAP BTP Cockpit*](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=teched02.accounts.ondemand.com#/globalaccount/b014fa39-27ae-4058-99ca-13ac40ad60c3/subaccount/b2adace6-7cff-4ddd-afeb-251127e20c9f) and see the deployed resources.
+Upon success, you can log in to the [*SAP BTP Cockpit*](https://emea.cockpit.btp.cloud.sap/cockpit/?idp=teched02.accounts.ondemand.com#/globalaccount/b014fa39-27ae-4058-99ca-13ac40ad60c3/subaccount/b2adace6-7cff-4ddd-afeb-251127e20c9f) and see the deployed resources.
 In the navigation menu on the left-side, go to *HTML5 Applications*.
-Here you should be able to find your application under the name `comsapca260###` (`###` replaced with your participant numer).
+Here you should be able to find your application under the name `comsapca260###` (`###` replaced with your participant number).
 Take a note of the value shown under *Business Solution*, which should be `ca260###` where `###` is your participant number.
 
 Afterwards, you can navigate to *Cloud Foundry* and the sub-menu entry *Spaces*.

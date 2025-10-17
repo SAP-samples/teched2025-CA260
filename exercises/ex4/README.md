@@ -22,7 +22,7 @@ We have already completed these steps for this hands-on workshop, but still want
 
 > [!NOTE]
 > The `package.json` file manages the dependencies for the *CAP* Node.JS project and includes additionally some *CAP* specific configurations.
-> *CAP* is capable of sending notifications to *SAP Build Work Zone* using a dedicated *CAP Plugin* `@cap-js/notifications`, which sources are open-source and can be found on [Github](https://github.com/cap-js/notifications). Read more about [Notifications in the CAP Documentation](https://cap.cloud.sap/docs/plugins/#notifications).
+> *CAP* is capable of sending notifications to *SAP Build Work Zone* using a dedicated *CAP Plugin* `@cap-js/notifications`, which sources are open-source and can be found on [GitHub](https://github.com/cap-js/notifications). Read more about [Notifications in the CAP Documentation](https://cap.cloud.sap/docs/plugins/#notifications).
 
 3. The plugin communicates with the necessary APIs using a *Destination* that needs to be created in the *SAP BTP Subaccount* in which the application will run. By default it expects the name for the *Destination* to be `SAP_Notifications` if not configured differently.
 
@@ -168,7 +168,7 @@ We will now prepare the project for building & deploying the updated application
 
 ## Exercise 4.4 Check the result in SAP Mobile Start
 
-1. On your *Site* in *SAP Build Work Zone* and click on the application tile of your *Incidents Management* app like in Exercise 2.3.
+1. On your *Site* in *SAP Build Work Zone* click on the application tile of your *Incidents Management* app like in Exercise 2.3.
     <p align="center"><img src="./images/ex4_04_01.png" width="80%" /><img src="./images/ex4_04_02.png" width="80%" /></p>
 2. In the table of *Incidents*, click on the `Create` button.
 3. Fill the *Incidents* data to your liking and save your *Incident* using the `Save` button. 
