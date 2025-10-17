@@ -67,7 +67,7 @@ After having our app deployed to the *SAP BTP*, we can now add it into *SAP Buil
 
 5. Head to the *Site Directory* using the burger menu on the left.
 6. Click the `+ Create Site` button and enter `CA260-###` (replacing `###` with your participant number) as the *Site Name*. Complete the creation with the button `Create`.
-7. Find *Site* with **your** participant number.
+7. The *Site Settings* should open now. Otherwise find *Site* with **your** participant number.
 8. Click on the small *gear* icon.
 9. In the *Site Settings* that should now open, click `Edit` and modify the following settings:
 
