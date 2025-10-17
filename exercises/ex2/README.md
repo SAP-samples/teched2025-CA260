@@ -67,11 +67,11 @@ After having our app deployed to the *SAP BTP*, we can now add it into *SAP Buil
 
 5. Head to the *Site Directory* using the burger menu on the left.
 6. Click the `+ Create Site` button and enter `CA260-###` (replacing `###` with your participant number) as the *Site Name*. Complete the creation with the button `Create`.
-7. The *Site Settings* should open now. Otherwise find *Site* with **your** participant number.
-8. Click on the small *gear* icon.
-9. In the *Site Settings* that should now open, click `Edit` and modify the following settings:
+7. The *Site Settings* should open now. Otherwise find *Site* with **your** participant number. Click on the small *gear* icon.
+8. You should see the *Site Settings* for your *Site*, click `Edit`.
+9. Modify the following settings:
 
-    - Add `German (Germany)` to the supported languages (optional)
+    - Add `German (Germany)` to the available languages (optional)
     - Make sure *SAP Mobile Start* is **enabled** (default)
     - Enable *Joule*
     - Select the *View Mode*: `Spaces & Pages - New Experience`
@@ -89,7 +89,7 @@ After having our app deployed to the *SAP BTP*, we can now add it into *SAP Buil
     <p align="center"><img src="./images/ex2_02_06.png" width="80%" /></p>
 
 > [!TIP]
-> As an alternative to assigning individual roles to your side, you can also assign all roles from a certain *Content Channel* to your *Site.
+> As an alternative to assigning individual roles to your side, you can also assign all roles from a certain *Content Channel* to your *Site*.
 > To do this, switch the tab above the table from `Roles` to `Content Channels`.
 > As we have only exposed one role from our *HTML5 Business Solution*, you can choose either of both approaches without any drawback.
 

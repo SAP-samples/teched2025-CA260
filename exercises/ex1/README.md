@@ -106,6 +106,7 @@ This will be our basis to further optimize the application in the subsequent exc
     ```
 
     into the form field and click on the button `Sign in with alternative identity provider`.
+    Sign in with the credentials provided to you.
 
 10. Click on the *Copy* icon next to the *Temporary Authentication Code* that shows after successfully logging in.
 
