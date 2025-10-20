@@ -1,6 +1,6 @@
 # CA260 - Learn how to build your own app and use it in SAP Mobile Start
 
-<p align="center"><img src="./exercises/ex1/images/CA260.jpg" width="80%" /></p>
+<p align="center"><img src="./exercises/ex1/images/CA260.jpg" width="100%" /></p>
 
 ## Description
 
@@ -64,7 +64,7 @@ Login credentials will be provided by the instructor.
 
 You can download SAP Mobile Start for iOS and Android in the respective App Stores.
 
-<p align="center"><img src="./exercises/ex1/images/download.png" width="80%" /></p>
+<p align="center"><img src="./exercises/ex1/images/download.png" width="100%" /></p>
 
 ## Contributing
 

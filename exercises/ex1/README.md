@@ -13,7 +13,7 @@ This will be our basis to further optimize the application in the subsequent exc
 
 3. Select the application type `Full-Stack Node.JS`
 
-    <p align="center"><img src="./images/ex1_01_01.png" width="80%" /><img src="./images/ex1_01_02.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex1_01_01.png" width="100%" /><img src="./images/ex1_01_02.png" width="100%" /></p>
 
 4. Click `Next` and fill out the form fields
 
@@ -27,7 +27,7 @@ This will be our basis to further optimize the application in the subsequent exc
 
     - Keep the value prefilled for `Dev Space`
 
-    <p align="center"><img src="./images/ex1_01_03.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex1_01_03.png" width="100%" /></p>
 
 > [!CAUTION]
 > Make sure to replace `###` with your participant number.  
@@ -50,8 +50,8 @@ This will be our basis to further optimize the application in the subsequent exc
 
 8. Click on the small `Replace All` button next to the replace text field and confirm the dialog with the button `Replace`
 
-    <p align="center"><img src="./images/ex1_01_04.png" width="80%" /></p>
-    <p align="center"><img src="./images/ex1_01_05.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex1_01_04.png" width="100%" /></p>
+    <p align="center"><img src="./images/ex1_01_05.png" width="100%" /></p>
 
 > [!CAUTION]
 > It is **very important** that all occurrences of `###` are replaced with the correct value of your participant number, otherwise the deployment and subsequent steps will not work properly. The upcoming excercises build upon this correct value and the correct value is required to not interfere with other participants.
@@ -74,7 +74,7 @@ This will be our basis to further optimize the application in the subsequent exc
     npm install
     ```
 
-    <p align="center"><img src="./images/ex1_02_01.png" width="80%" /><img src="./images/ex1_02_02.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex1_02_01.png" width="100%" /><img src="./images/ex1_02_02.png" width="100%" /></p>
 
 4. Select the `Explorer` view right below the burger menu to display the project's folder & file structure.
 
@@ -89,7 +89,7 @@ This will be our basis to further optimize the application in the subsequent exc
 
 7. Right click the `ca260-###_1.0.0.mtar` file and select `Deploy MTA Archive`.
 
-    <p align="center"><img src="./images/ex1_02_03.png" width="80%" /><img src="./images/ex1_02_04.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex1_02_03.png" width="100%" /><img src="./images/ex1_02_04.png" width="100%" /></p>
 
 > [!NOTE]
 > When deploying for the first time, you will need to sign-in to *Cloud Foundry* of the *SAP BTP*.  
@@ -110,7 +110,7 @@ This will be our basis to further optimize the application in the subsequent exc
 
 10. Click on the *Copy* icon next to the *Temporary Authentication Code* that shows after successfully logging in.
 
-    <p align="center"><img src="./images/ex1_02_05.png" width="80%" /><img src="./images/ex1_02_06.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex1_02_05.png" width="100%" /><img src="./images/ex1_02_06.png" width="100%" /></p>
 
 11. Going back to the *SAP Business Application Studio*, paste the copied authentication code into the field *Enter your SSO Passcode*.
     Afterwards, click the button `Sign in`.
@@ -118,7 +118,7 @@ This will be our basis to further optimize the application in the subsequent exc
 12. Select the *organization* `ca260` and the *space* `CA260` as *Cloud Foundry Target*, to which we will deploy our application.  
     Click `Apply` and continue with the deployment.
 
-    <p align="center"><img src="./images/ex1_02_07.png" width="80%" /><img src="./images/ex1_02_08.png" width="80%" /></p>
+    <p align="center"><img src="./images/ex1_02_07.png" width="100%" /><img src="./images/ex1_02_08.png" width="100%" /></p>
 
 > [!NOTE]
 > The deployment will take some minutes.
@@ -148,7 +148,7 @@ Using *SAP Fiori Elements* the *ProcessorService* is connected to a *SAP UI5* Us
 Its definitions are located in the folder `/app`.  
 The folder `/workzone` contains a single file that defines the structre in which our application should appear as tile in *SAP Build Work Zone, standard edition* and *SAP Mobile Start* – additionally the user role that should be required in order to see the application tile.
 
-<p align="center"><img src="./images/ex1_summary_01.png" width="80%" /></p>
+<p align="center"><img src="./images/ex1_summary_01.png" width="100%" /></p>
 
 > [!NOTE]
 > If you want to learn more about the *SAP Cloud Application Programming Model* in general, please refer to the [official documentation](https://cap.cloud.sap/docs/).
@@ -156,8 +156,8 @@ The folder `/workzone` contains a single file that defines the structre in which
 > [!TIP]
 > You can also test the application locally by running `cds watch` in a terminal window.
 > When doing so, wait for the application to be started and click on the link shown in the terminal output.
-> <p align="center"><img src="./images/ex1_summary_02.png" width="80%" /></p>
-> <p align="center"><img src="./images/ex1_summary_03.png" width="80%" /></p>
+> <p align="center"><img src="./images/ex1_summary_02.png" width="100%" /></p>
+> <p align="center"><img src="./images/ex1_summary_03.png" width="100%" /></p>
 > 
 > By clicking on `/incidents/webapp`, you can open the defined UI of our application.
 > With this most of the functionality can be tested locally even before deploying the application to any *SAP BTP* environment.
@@ -174,8 +174,8 @@ Select the space `CA260`.
 Under *Applications* you should be able to find two applications with your participant number.
 The one named `ca260-###-srv`, where `###` is your participant number, is our *CAP* backend service.
 
-<p align="center"><img src="./images/ex1_summary_04.png" width="80%" /></p>
-<p align="center"><img src="./images/ex1_summary_05.png" width="80%" /></p>
+<p align="center"><img src="./images/ex1_summary_04.png" width="100%" /></p>
+<p align="center"><img src="./images/ex1_summary_05.png" width="100%" /></p>
 
 > [!IMPORTANT]
 > **Congratulations!** :partying_face:
