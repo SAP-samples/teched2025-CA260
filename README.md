@@ -1,5 +1,8 @@
 # CA260 - Learn how to build your own app and use it in SAP Mobile Start
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2025-CA260)](https://api.reuse.software/info/github.com/SAP-samples/teched2025-CA260)
+
+
 <p align="center"><img src="./exercises/ex1/images/CA260.jpg" width="100%" /></p>
 
 ## Description
